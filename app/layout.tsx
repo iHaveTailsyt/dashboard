@@ -1,5 +1,11 @@
 import '@/app/ui/global.css';
 import { inter } from '@/app/ui/fonts';
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Acme Dashboard',
+  description: 'The Acme Dashboard used for handling Acme\'s Payments.'
+};
  
 export default function RootLayout({
   children,
